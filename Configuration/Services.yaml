@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Xeniathiem\XeniathiemSemps\:
+    resource: '../Classes/*'
+
+  Xeniathiem\XeniathiemSemps\DataProcessing\SempsProcessor:
+    public: true

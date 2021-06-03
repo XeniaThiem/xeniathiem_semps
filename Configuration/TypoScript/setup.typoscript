@@ -1,0 +1,89 @@
+plugin.tx_xeniathiemsemps_sempslist {
+    view {
+        templateRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Templates/
+        templateRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempslist.view.templateRootPath}
+        partialRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Partials/
+        partialRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempslist.view.partialRootPath}
+        layoutRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Layouts/
+        layoutRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempslist.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_xeniathiemsemps_sempslist.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+        # Should be on by default, but can be disabled if all action in the plugin are uncached
+        requireCHashArgumentForActionArguments = 1
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
+plugin.tx_xeniathiemsemps_sempsteaser {
+    view {
+        templateRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Templates/
+        templateRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempsteaser.view.templateRootPath}
+        partialRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Partials/
+        partialRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempsteaser.view.partialRootPath}
+        layoutRootPaths.10 = EXT:xeniathiem_semps/Resources/Private/Layouts/
+        layoutRootPaths.100 = {$plugin.tx_xeniathiemsemps_sempsteaser.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_xeniathiemsemps_sempsteaser.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+        # Should be on by default, but can be disabled if all action in the plugin are uncached
+        requireCHashArgumentForActionArguments = 1
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
+
+page = PAGE
+page {
+  10 = FLUIDTEMPLATE
+  10 {
+
+    file.stdWrap.cObject = CASE
+    file.stdWrap.cObject {
+          key.data = pagelayout
+
+          pagets__semps = TEXT
+          pagets__semps.value = EXT:xeniathiem_semps/Resources/Private/Templates/Page/Semps.html
+    }
+
+    templateRootPaths {
+      0 = EXT:site_package/Resources/Private/Templates/Page/
+      10 = EXT:xeniathiem_semps/Resources/Private/Templates/Page
+    }
+    partialRootPaths {
+      0 = EXT:site_package/Resources/Private/Partials/Page/
+      10 = EXT:xeniathiem_semps/Resources/Private/Partials/Page
+    }
+    layoutRootPaths {
+      0 = EXT:site_package/Resources/Private/Layouts/Page/
+      10 = EXT:xeniathiem_semps/Resources/Private/Layouts/Page
+    }
+
+    dataProcessing {
+      700 = Xeniathiem\XeniathiemSemps\DataProcessing\SempsProcessor
+      700 {
+        as = semps
+      }
+    }
+  }
+  includeCSS {
+    file1 = EXT:xeniathiem_semps/Resources/Public/CSS/xeniathiem_semps.css
+  }
+  includeJSFooter {
+    file2 = EXT:xeniathiem_semps/Resources/Public/JavaScript/xeniathiem_semps.js
+  }
+}

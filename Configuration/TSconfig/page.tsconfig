@@ -1,0 +1,25 @@
+mod {
+  web_layout {
+    BackendLayouts {
+      semps {
+        title = Semps Detailseite
+        config {
+          backend_layout {
+            colCount = 1
+            rowCount = 1
+            rows {
+              1 {
+                columns {
+                  1 {
+                    name = Inhaltsbereich
+                    colPos = 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

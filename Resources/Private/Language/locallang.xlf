@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:xeniathiem_semps/Resources/Private/Language/locallang" date="2021-05-16T14:15:25Z" product-name="xeniathiem_semps">
+		<header/>
+		<body>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_semps" resname="tx_xeniathiemsemps_domain_model_semps">
+				<source>Semps</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_semps.name" resname="tx_xeniathiemsemps_domain_model_semps.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_semps.teaserimage" resname="tx_xeniathiemsemps_domain_model_semps.teaserimage">
+				<source>Teaserimage</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_semps.gallery" resname="tx_xeniathiemsemps_domain_model_semps.gallery">
+				<source>Gallery</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_color" resname="tx_xeniathiemsemps_domain_model_color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_color.name" resname="tx_xeniathiemsemps_domain_model_color.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_breeder" resname="tx_xeniathiemsemps_domain_model_breeder">
+				<source>Breeder</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_breeder.name" resname="tx_xeniathiemsemps_domain_model_breeder.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_family" resname="tx_xeniathiemsemps_domain_model_family">
+				<source>Family</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_family.name" resname="tx_xeniathiemsemps_domain_model_family.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_category" resname="tx_xeniathiemsemps_domain_model_category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_category.name" resname="tx_xeniathiemsemps_domain_model_category.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_tag" resname="tx_xeniathiemsemps_domain_model_tag">
+				<source>Tag</source>
+			</trans-unit>
+			<trans-unit id="tx_xeniathiemsemps_domain_model_tag.name" resname="tx_xeniathiemsemps_domain_model_tag.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="semps.list.settings.registration.title" resname="semps.list.settings.registration.title">
+				<source>Einstellungen</source>
+			</trans-unit>
+			<trans-unit id="semps.list.settings.registration.title" resname="semps.list.settings.registration.title">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="semps.list.title" resname="semps.list.title">
+				<source>Überschrift</source>
+			</trans-unit>
+			<trans-unit id="semps.list.subtitle" resname="semps.list.subtitle">
+				<source>Untertitel</source>
+			</trans-unit>
+			<trans-unit id="semps.list.sempscategorychoice" resname="semps.list.sempscategorychoice">
+				<source>Nach Kategorie filtern</source>
+			</trans-unit>
+			<trans-unit id="semps.list.sempsfamilychoice" resname="semps.list.sempsfamilychoice">
+				<source>Nach Serie filtern</source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.settings.registration.title" resname="semps.teaser.settings.registration.title">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.title" resname="semps.teaser.title">
+				<source>Überschrift</source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.subtitle" resname="semps.teaser.subtitle">
+				<source>Untertitel</source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.limit" resname="semps.teaser.limit">
+				<source>Anzahl der ausgegeben Semps</source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.sempscategorychoice" resname="semps.teaser.sempscategorychoice">
+				<source>Nach Kategorie filtern</source>
+			</trans-unit>
+			<trans-unit id="semps.teaser.sempsfamilychoice" resname="semps.teaser.sempsfamilychoice">
+				<source>Nach Serie filtern</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.title" resname="semps.pages.title">
+				<source>Name der Semps</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.description" resname="semps.pages.description">
+				<source>Beschreibung</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.gallery" resname="semps.pages.gallery">
+				<source>Galerie</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.teaserimage" resname="semps.pages.teaserimage">
+				<source>Teaserbild (wird in Teasern genutzt)</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.mother" resname="semps.pages.mother">
+				<source>Mutterpflanze</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.year" resname="semps.pages.year">
+				<source>Jahr der Aussaat</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.colors" resname="semps.pages.colors">
+				<source>Farben</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.breeders" resname="semps.pages.breeders">
+				<source>Züchter/in</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.categories" resname="semps.pages.categories">
+				<source>Kategorie</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.tags" resname="semps.pages.tags">
+				<source>Tags</source>
+			</trans-unit>
+			<trans-unit id="semps.pages.families" resname="semps.pages.families">
+				<source>Serie</source>
+			</trans-unit>
+			<trans-unit id="semps_pagetype" resname="semps_pagetype">
+				<source>Semps</source>
+			</trans-unit>
+			<trans-unit id="" resname="">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="" resname="">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="" resname="">
+				<source></source>
+			</trans-unit>
+			<trans-unit id="" resname="">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

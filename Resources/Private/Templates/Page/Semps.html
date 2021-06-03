@@ -1,0 +1,26 @@
+<f:render partial="Navigation" arguments="{_all}" />
+
+    
+
+         <div class="container" id="page-header">
+            <div id="navigation-top-level">
+               <f:cObject typoscriptObjectPath="lib.topNavigation" />
+            </div>
+            <div id="navigation-trail">
+               {f:cObject(typoscriptObjectPath:'lib.breadcrumbTrail')->f:format.raw()}
+            </div>
+         </div>
+
+         <f:render partial="SempsItem" arguments="{_all}" />
+
+            <div id="whole-content">
+               <f:format.raw>{contentNormal}</f:format.raw>
+            </div>
+            <div id="page-body-end">&nbsp;</div>
+
+
+         <div id="page-footer">
+            <div id="footer-notice">
+               <p>This is the page footer area.</p>
+            </div>
+         </div>

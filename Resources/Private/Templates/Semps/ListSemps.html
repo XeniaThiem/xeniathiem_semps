@@ -1,0 +1,20 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+
+<f:section name="content">
+
+  <f:for each="{semps}" as="item">
+    <f:link.page pageUid="{item.uid}">
+    <div class="sempslist-item">
+      <f:if condition="{item.teaserimage}">
+        <div id="sempslist-teaserimage">
+          <f:image image="{item.teaserimage}" alt="{item.name}" title="{item.name}" height="40c" width="40c"/>
+        </div>
+       </f:if>
+        {item.name}
+      </div>
+    </f:link.page>
+  </f:for>
+
+</f:section>
+</html>

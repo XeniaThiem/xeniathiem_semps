@@ -1,0 +1,64 @@
+
+         <div class="semps-header-image-container container" id="page-body">
+           <f:if condition="{semps.teaserimage}">
+             <div id="row semps-teaserimage">
+               <f:image image="{semps.teaserimage}" alt="{semps.name}" title="{semps.name}" height="900" width="900"/>
+             </div>
+           </f:if>
+         </div>
+
+         <div class="container">
+
+          <div class="semps-top-container container">
+
+            <f:if condition="{semps.gallery}">
+              <div class="row semps-gallery">
+                <f:for each="{semps.gallery}" as="item">
+                <div class="semps-gallery-item">
+                  <f:image image="{item}" alt="{semps.name}" title="{semps.name}" height="50px" width="50px" />
+                </div>
+                </f:for>
+              </div>
+            </f:if>
+
+            <div id="row page-title"><h1>{data.title}</h1></div>
+
+            <div class="semps-category-section row">
+
+              <f:if condition="{semps.categories}">
+                <f:for each="{semps.categories}" as="category">
+                <div class="row">
+                  {category.name}
+                    </div>
+                </f:for>
+              </f:if>
+
+              <f:if condition="{semps.tags}">
+                <f:for each="{semps.tags}" as="tag">
+                  <div class="row">
+                  {tag.name}
+                </div>
+                </f:for>
+              </f:if>
+
+              <f:if condition="{semps.colors}">
+                <f:for each="{semps.colors}" as="color">
+                  <div class="row">
+                  {color.name}
+                </div>
+                </f:for>
+              </f:if>
+
+            </div>
+
+          </div>
+
+          <div class="semps-description-container container">
+            <f:if condition="{semps.description}">
+            <div class="semps-description-container row">
+              <f:format.html>{semps.description}</f:format.html>
+            </div>
+            </f:if>
+          </div>
+
+          </div>
